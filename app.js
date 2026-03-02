@@ -334,7 +334,7 @@
     resultsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  // ---- Copy Output ----
+  // ---- Copy Output -----
 
   btnCopy.addEventListener('click', function () {
     if (!obfuscatedCode) return;
